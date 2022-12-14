@@ -8,7 +8,7 @@
  
     <meta name="tlgpviewport" content="width=device-width, initial-scale=1.0">
     <title>Home | LoveWildLife | Home</title>
-    <link rel="stylesheet" href="./styles/site-plan.css">
+    <link rel="stylesheet" href="./styles">
 
 </head>
 
@@ -37,6 +37,40 @@
             <a class='book' href="rates.html">Book Now</a>
         </div>
         <style>
+          body{
+            background-color:#66e343; 
+            text-align: center;}
+          header {
+            background-color:blueviolet;
+            display: grid;
+            grid-template-columns: 150px auto;
+          }
+          
+          nav {
+            padding: 30px; 
+            display: flex;
+            justify-content: space-around;
+          
+          }
+          nav a{
+            padding:1em;
+            min-width: 120px;
+            text-decoration: none;
+            padding: 10px;
+          }
+          nav a:hover{
+            background-color:blue;
+           color : black;
+          }
+          .logo{  margin:0px;
+                width: 80px;
+                
+            }
+          #logo_link   {
+            padding-top: 5px;
+            justify-self: center;
+            align-self: center;
+          }
             * {box-sizing: border-box;}
             body {font-family: Verdana, sans-serif;}
             .mySlides {display: none;}
@@ -88,7 +122,34 @@
             .fade {
               animation-name: fade;
               animation-duration: 1.5s;
-            }
+            }footer {margin-top: 200px;
+  background-color:blueviolet;
+  color: black;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a{
+  background-color:blueviolet ;
+  color: black;
+  text-align: center;
+  color:black;
+  text-decoration: none;
+}
+footer a:hover{
+  margin: auto;
+  padding: 15px;
+  background-color: blue;
+  color: black;
+ } 
+footer p {
+      font-size: 1.2em;
+  }       
+footer.social img{
+  padding: 15px;
+}
             
             @keyframes fade {
               from {opacity: .4} 
